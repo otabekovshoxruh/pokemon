@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Solid';
+    src: url(../fonts/Pokemon\ Hollow.ttf);
+  }
+  h1{
+    text-align: center;
+    font-family: 'Solid', sans-serif;
+    text-shadow: 3px 3px 1px #3761a8;
+    font-size: 40px;
+    margin-top: 3px;
+
+  }
+  .Navbar{
+    width: 1320px;
+    height: 120px;
+    color: #feca1b;
+    margin: 6px auto;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    background: #add8f7;
+    
+  }

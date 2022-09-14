@@ -1,0 +1,57 @@
+.searchArea{
+     display: flex;
+     justify-content: center;
+     margin-top: 25px;
+}
+
+.searchArea > input{
+    width: 35%;
+    padding: 10px;
+    border-radius:30px;
+    font-size:20px;
+    border: 1px solid rgba(100, 100, 100, 0.397);
+}
+input:focus{
+    box-shadow: 0 4px 20px black;
+    outline: none;
+}
+.resultCard {
+   display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.resultCard > .card{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    position: relative;
+}
+.card > .cardR {
+    width:40%
+}
+
+.cardL > .img{
+    width: 250px;  
+    position: absolute;
+    top: 85px;
+
+
+    
+}
+
+
+.searchArea > button{
+    background-color: rgb(46, 51, 58);
+    color:beige;
+    padding:10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 20px; 
+
+}
+
+
+
